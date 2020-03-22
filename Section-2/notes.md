@@ -19,4 +19,17 @@
 - meta for meta data. 
 
 - Describe some attributes of the webpage. Don't actually display anything visually.
+
+# HTML Block vs Inline elements
+- A ***block*** level element spans 100% the width of the page. Therefore, the element that comes after a block element has to go to the next line.
+- An ***inline*** level element ***DOES NOT*** span the whole width of the page but just as much as it needs. Hence, the element coming after an inline element does not have to go to the next line if it can fit to the right in the remaining width.
+
+# HTML5 Semantic Tags
+- &lt;header&gt;
+- &lt;footer&gt;
+- &lt;nav&gt;
+- &lt;main&gt;
+- &lt;section&gt;
+- &lt;article&gt;
+- &lt;aside&gt;
   
