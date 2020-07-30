@@ -22,3 +22,11 @@
 # Style Attribute Precedence
 - When we set multiple attributes for the same styling, the ones that are further down i.e. more detailed ***OVERWRITE*** the ones that are further up i.e. more general.
   - For example, `padding-top`, `padding-bottom`, `padding-left`, `padding-right` overwrite `padding`
+
+# Position Values 
+
+- Static (default): Not effected by tblr(top, bottom, left, right) properties/values
+- Relative: tblr values cause element to be moved from its normal position
+- Absolute: Positioned relative to its parent element that is positioned "relative"
+- Fixed: Positioned relative to the viewport i.e. stay at that one spot wherever you scroll to
+- Sticky: Positioned based on scroll position
