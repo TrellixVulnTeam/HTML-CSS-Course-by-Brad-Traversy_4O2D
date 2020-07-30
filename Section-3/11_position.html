@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>CSS Positioning</title>
         <style>
+            /* 
+            - relative: The element is positioned relative to its normal position
+            - absolute: The element is positioned relative to its first relatively or absolutely positioned parent element. If there is no positioned parent element, it will be positioned relative to the HTML page itself
+            - See examples here: https://dzone.com/articles/css-position-relative-vs-position-absolute#:~:text=Relative%20%2D%20the%20element%20is%20positioned,related%20to%20the%20browser%20window.
+            */
+
             body {
                 height: 4000px;
             }
@@ -50,7 +56,8 @@
             #box-5 {
                 /* Always visible on the screen but instead of being like fixed i.e. always at the initial position, for sticky, when the initial position has gone out of sight, the element will always be visible at a defined "sticky" position on the screen */
                 position: sticky;
-                top: 0;
+                top: 100px;
+                left: 50px;
                 background: orange;
             }
         </style>
